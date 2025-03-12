@@ -1,0 +1,6 @@
+parameters:
+    level: 6 # Nivel de análisis (0-8, siendo 8 el más estricto)
+    paths:
+        - api/ # Directorio a analizar
+    excludePaths:
+        - vendor/ # Ignorar dependencias

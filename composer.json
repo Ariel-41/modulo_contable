@@ -1,0 +1,30 @@
+{
+    "name": "modulo_contable",
+    "description": "Módulo contable para PYMES con integración AFIP",
+    "require": {
+        "php": ">=7.4",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.0",
+        "monolog/monolog": "^2.0",
+        "vlucas/phpdotenv": "^5.0",
+        "afipsdk/afip.php": "^2.0",
+        "firebase/php-jwt": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "api/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "require-dev": {
+        "zircote/swagger-php": "^4.0"
+    },
+    "require": {
+        "respect/validation": "^2.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0"
+    }
+}
